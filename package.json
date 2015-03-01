@@ -2,9 +2,9 @@
   "name": "draughts-game-controller",
   "version" : "1.0.0",
   "dependencies" : {
-    "draughts-damweb-parser" : "https://github.com/jlfy738/draughts-damweb-parser/archive/v1.0.0.tar.gz",
-    "draughts-pdn-parser" : "https://github.com/jlfy738/draughts-pdn-parser/archive/v1.0.0.tar.gz",
-    "draughts-reader-core" : "https://github.com/jlfy738/draughts-reader-core/archive/v1.0.0.tar.gz"
+    "draughts-damweb-parser" : "https://github.com/jlfy738/draughts-damweb-parser/archive/1.0.0.tar.gz",
+    "draughts-pdn-parser" : "https://github.com/jlfy738/draughts-pdn-parser/archive/1.0.0.tar.gz",
+    "draughts-reader-core" : "https://github.com/jlfy738/draughts-reader-core/archive/1.0.0.tar.gz"
   },
   "devDependencies": {
     "browserify": "^6.3.3",

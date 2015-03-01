@@ -1,6 +1,4 @@
 var
-    Game = require('draughts-reader-core').Game,
-    Piece = require('draughts-reader-core').Piece,
     DamWeb = require('./converters/DamWeb'),
     PDN = require('./converters/PDN')
 ;
