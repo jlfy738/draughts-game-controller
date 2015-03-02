@@ -15,7 +15,7 @@
   "main" : "src/main.js",
   "scripts": {
     "build": "rm -rf ./dist/ && mkdir \"./dist/\" && browserify ./src/main.js -o ./dist/draughts-game-controller.js",
-    "test": "mocha test/**/*.test.js"
+    "test": "mocha"
   },
   "licence" : "MIT"
 }
