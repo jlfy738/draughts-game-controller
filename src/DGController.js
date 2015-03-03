@@ -20,6 +20,10 @@ DGController.prototype.initPDN = function(pdnText) {
     this.converter = new PDN(pdnText);
 };
 
+DGController.prototype.getCurrentNumGame = function() {
+    return this.currentNumGame;
+};
+
 DGController.prototype.setCurrentNumGame = function(numGame) {
     this.currentNumGame = numGame;
 };
