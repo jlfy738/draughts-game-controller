@@ -1,5 +1,5 @@
 var
-    PDNParser = require('draughts-pdn-parser').PDNParser,
+    PDNParser = require('draughts-pdn-parser'),
     Game = require('draughts-reader-core').Game,
     Piece = require('draughts-reader-core').Piece
 ;
