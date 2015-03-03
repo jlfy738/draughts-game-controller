@@ -35,7 +35,7 @@ DamWeb.prototype.getGame = function(numGame){
 
     // Notation
     var moves = dw.getMoveList();
-    for (var i = 0; i < moves.size; i++) {
+    for (var i = 0; i < moves.length; i++) {
         var iStart = moves[i][0];
         var iEnd = moves[i][1];
 

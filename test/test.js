@@ -9,6 +9,9 @@ function testDamWeb(){
 
     var game = dgc.getGame();
 
+    console.log("-------------------------------");
+    console.log("DamWeb Test");
+    console.log("-------------------------------");
     console.log("getGameCount = " + dgc.getGameCount());
     console.log("getGame = " + game);
 
@@ -36,6 +39,9 @@ function testPDN(){
 
     var game = dgc.getGame();
 
+    console.log("-------------------------------");
+    console.log("PDN Test");
+    console.log("-------------------------------");
     console.log("getGameCount = " + dgc.getGameCount());
     console.log("getGame = " + game);
 
