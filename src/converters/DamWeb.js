@@ -1,5 +1,5 @@
 var
-    DamWebParser = require('draughts-damweb-parser').DamWebParser,
+    DamWebParser = require('draughts-damweb-parser'),
     Game = require('draughts-reader-core').Game,
     Piece = require('draughts-reader-core').Piece
 ;
@@ -26,7 +26,7 @@ DamWeb.prototype.getGame = function(numGame){
     dw.parse();
 
     var game = new Game();
-    
+
     // Position
     game.board.setPosition(Piece.PAWN_WHITE, dw.getWPList());
     game.board.setPosition(Piece.DAME_WHITE, dw.getWKList());
