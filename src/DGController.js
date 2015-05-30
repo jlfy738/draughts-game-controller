@@ -42,11 +42,19 @@ DGController.prototype.getTitles = function() {
 };
 
 DGController.prototype.getTitle = function() {
-    return this.converter.getTitle(this.currentNumGame, this.titlePattern);
+    if (this.currentNumGame) {
+        return this.converter.getTitle(this.currentNumGame, this.titlePattern);
+    } else {
+        return "";
+    }
 };
 
 DGController.prototype.getGame = function() {
-    return this.converter.getGame(this.currentNumGame);
+    if (this.currentNumGame) {
+        return this.converter.getGame(this.currentNumGame);
+    } else {
+        return new Game();
+    }
 };
 
 
