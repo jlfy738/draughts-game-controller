@@ -1,6 +1,7 @@
 var
     DamWeb = require('./converters/DamWeb'),
-    PDN = require('./converters/PDN')
+    PDN = require('./converters/PDN'),
+    Game = require('draughts-reader-core').Game
 ;
 
 
